@@ -2,7 +2,6 @@
 .header {
 	display:block;
 	width: 100%;
-	height: 100px;
 	#position: fixed;
 	text-align: center;
 	#background-color: white;
@@ -13,9 +12,56 @@
 	#margin-top: 2px;
 }
 
+.name {
+	float: left;
+	width: 64%;	
+	height: 55px;
+	text-align: center;
+}
+
+div.email:hover {
+	#color: skyblue;
+}
+div.email:hover a {
+	display: inline;
+}
+
+div.email:hover .copy {
+	display: inline;
+}
+
+div.email:hover span {
+	display: none;
+}
+.copy {
+	display:none;
+}
+
+.linkedin {
+	margin: 2px;
+}
+
+.email a {
+	display: none;
+	
+}
+
+.name h2 {
+	#height: 16px;
+	margin-top: 8px;
+}
+
+.contact {
+	float: left;
+	width: 26%;
+	overflow: hidden;
+	margin-right: 0px;
+	text-align: left;
+}
+
 .pbody {
 	position: obsolute;
-	font-size: 30px;
+	font-size: 16px;
 	font-family: Verdana, sans-serif;
 	display: block;	
 	float: left;
@@ -23,8 +69,8 @@
 
 .left-container {
 	float: left;
-	width:65%;
-	padding: 10px;
+	width:68%;
+	#padding: 5px;
 }
 
 .experience h3 {
@@ -51,9 +97,9 @@
 .right-container {
 	float:left;
 	width:30%;
-	padding: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
+	padding: 5px;
+	#margin-left: 10px;
+	#margin-right: 10px;
 }
 
 .education p {
@@ -71,9 +117,14 @@
 
 .blue {
 	background-color: #f1f1f1;
-	border-radius: 20px;
+	border-radius: 10px;
 	margin: 10px;
 	padding: 10px;
+}
+
+.low-margin h2{
+	margin: 5px;
+	color: skyblue;
 }
 
 #desc {
