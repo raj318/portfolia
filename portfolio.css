@@ -18,32 +18,41 @@
 	height: 55px;
 	text-align: center;
 }
-
-div.email:hover {
-	#color: skyblue;
+.contact {
+	height: 57px;	
 }
-div.email:hover a {
-	display: inline;
-}
-
-div.email:hover .copy {
-	display: inline;
+.email  {
+	height: 19px;
+	display: block;
 }
 
-div.email:hover span {
-	display: none;
-}
-.copy {
-	display:none;
-}
-
-.linkedin {
-	margin: 2px;
-}
-
-.email a {
-	display: none;
+.location {
+	height: 20px;
+	display: block;
+	margin-top: 5px;
 	
+}
+
+.websites .icon {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.icon {
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-right: 5px;
+	border-radius: 5px;
+}
+
+.mailid {
+	display: inline;
+	text-align: top;
+	height: 15px;
+	float: left;
+	margin-bottom: 5px;
 }
 
 .name h2 {
@@ -103,7 +112,7 @@ div.email:hover span {
 }
 
 .education p {
-	font-size: 20px;
+	font-size: 10px;
 	margin: 10px;
 }
 
