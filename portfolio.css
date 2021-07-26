@@ -1,3 +1,210 @@
-body {
-  background-color: skyblue; 
+
+.header {
+	display:block;
+	width: 100%;
+	#position: fixed;
+	text-align: center;
+	#background-color: white;
+	float: left;
 }
+
+.header h2 {
+	#margin-top: 2px;
+}
+
+.name {
+	float: left;
+	width: 64%;	
+	height: 55px;
+	text-align: center;
+}
+.contact {
+	height: 57px;	
+}
+.email  {
+	height: 19px;
+	display: block;
+}
+
+.location {
+	height: 20px;
+	display: block;
+	margin-top: 5px;
+	color: black;
+	text-decoration: none;
+}
+
+.loc {
+	color: black;
+	text-decoration: none;
+}
+
+.websites .icon {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.icon {
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-right: 5px;
+	border-radius: 5px;
+}
+
+.icontext {
+	display: inline;
+	text-align: top;
+	height: 15px;
+	float: left;
+	margin-bottom: 5px;
+	color: black;
+}
+
+.email-text {
+	font-size: 10px;
+	visibility: hidden;
+	width: 100px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+  
+  /* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: 5px;
+	right: 200px;
+}
+
+.item  {
+	width: 100px;
+	display: inline-block;
+	background-color: #dedede;
+	border-radius: 10px;
+	padding: 4px;
+	font-size: 11px;
+	margin: 5px 2px 5px;
+}
+
+.ratings {
+	display: block;
+}
+
+.rating {
+	width: 10px;
+	height: 10px;
+}
+
+
+
+.strong-block {
+	display: block;
+}
+
+.email:hover .email-text {
+	visibility: visible;
+}
+
+.location-text {
+	font-size: 10px;
+	visibility: hidden;
+	width: 80px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+  
+  /* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: 5%;
+	right: 20%;
+}
+
+.location:hover .location-text {
+	visibility: visible;
+}
+
+.name h2 {
+	#height: 16px;
+	margin-top: 8px;
+}
+
+.contact {
+	float: left;
+	width: 26%;
+	overflow: hidden;
+	margin-right: 0px;
+	text-align: left;
+}
+
+.pbody {
+	position: obsolute;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	display: block;	
+	float: left;
+}
+
+.left-container {
+	float: left;
+	width:68%;
+	#padding: 5px;
+}
+
+.experience h3 {
+	display: inline;
+}
+
+.education h3 {
+	display: inline;
+}
+
+.nowrap {
+	white-space:nowrap;
+}
+
+.discription {
+	display: inline-block;
+	text-align: left;
+}
+
+.right-container {
+	float:left;
+	width:30%;
+	padding: 5px;
+}
+
+.education p {
+	font-size: 10px;
+	margin: 10px;
+}
+
+.body {
+	clear: both;
+	
+}
+
+
+.blue {
+	background-color: #f1f1f1;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.low-margin h2{
+	margin: 5px;
+	color: skyblue;
+}
+
+#desc {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
